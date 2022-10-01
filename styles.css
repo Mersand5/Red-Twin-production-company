@@ -1,0 +1,168 @@
+html {
+    font-size: 16px;
+}
+body, html {
+    height: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+}
+.background {
+    background-image: url(./images/title-background.png);
+    height: 100%;
+    background-position: center;
+    background-repeat:repeat;
+    background-size: cover;
+}
+header {
+    height: 75px;
+    width: 100%;
+    margin-top: 0;
+    border-bottom: 1px solid white;
+    background-color: white;
+    opacity: 0.8;
+    position: relative;
+
+}
+
+/*size of link imeges and size of logo*/
+img {
+    height: 50px;
+    width: 50px;
+}
+#logo {
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+/*working on getting it to be an inline */
+nav {
+    float:right;
+}
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+ul li  {
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+/*setting image sizes*/
+
+#youtube {
+    width: 80px;
+    height: 40px; 
+}
+#instagram {
+    height: 55px;
+    width: 80px;
+}
+#facebook {
+    height: 40px;
+    width: 40px;
+    
+}
+/*setting up the title*/
+
+.title-banner {
+    display: flex;
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+    justify-content: center;
+    align-content: space-between;
+  
+    
+}
+.text-over {
+    margin: auto;
+    background-color: black;
+    opacity: 0.8;
+   
+    color: white;
+    width: 100%;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+  
+}
+.text-over h1 {
+    font-size: 3em;
+}
+span {
+    color: rgb(117, 25, 25);;
+
+}
+
+.project-title {
+    display: inline-flex;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    margin: auto 100px;
+    max-width: 600px;
+    height: auto;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+}
+
+.projects-container {
+    display: inline-flex;
+    background-color: black;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.projects img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+    opacity: 1;
+}
+
+.team-container {
+    height: 500px;
+    max-width: 1000;
+    margin: 40px auto auto auto;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    padding-top: 85px;
+    
+}
+.text-top {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.team-members {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-around;
+}
+.member {
+    height: 300px;
+    padding: 20px;
+    margin-bottom: auto;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    background-color: purple;
+    opacity: 0.8;
+}
